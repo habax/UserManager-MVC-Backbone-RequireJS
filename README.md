@@ -40,4 +40,6 @@ Este ejercicio se baso en dos tutoriales los cuales se enlistan a continuación:
 
 Tutorial1: [video](https://www.youtube.com/watch?v=FZSjvWtUxYk)
 
-Tutorial2: [articulo](https://github.com/evilstreak/markdown-js)
+Tutorial2: [articulo](http://www.webdesignporto.com/3-steps-to-fully-automatized-javascript-environment-with-yeoman-and-require-js-for-lazy-people/)
+
+Tutorial3: [articulo](http://backbonetutorials.com/organizing-backbone-using-modules/)

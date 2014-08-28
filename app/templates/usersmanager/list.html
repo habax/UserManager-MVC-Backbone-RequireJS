@@ -1,0 +1,21 @@
+<a href="#/new" class="btn btn-primary">Nuevo Usuario</a>
+<table class="table striped table-hover">
+	<thead>
+		<tr>
+			<th>Nombre</th>
+			<th>Apellidos</th>
+			<th>Edad</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+	<% _.each(users, function(user){ %>
+		<tr>
+			<td><%= user.get('firstname') %></td>
+			<td><%= user.get('lastname') %></td>
+			<td><%= user.get('age') %></td>
+			<td><a href="#/edit/<%= user.get('id') %>" class="btn">Editar<a/></td>
+		</tr>
+	<% }); %>	 
+	</tbody>
+</table>

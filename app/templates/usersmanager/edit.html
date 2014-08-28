@@ -1,0 +1,16 @@
+<form class="edit-user-form form-horizontal">
+	<legend><%= user ? 'Actualizar' : 'Crear' %> Usuario</legend>
+	<label>Nombre</label>
+	<input type="text" name="firstname" value="<%= user ? user.get('firstname')  : '' %>"/>
+	<label>Apellidos</label>
+	<input type="text" name="lastname" value="<%= user ? user.get('lastname')  : '' %>"/>
+	<label>Edad</label>
+	<input type="text" name="age" value="<%= user ? user.get('age')  : '' %>"/>
+	<hr />
+	<button type="button" class="btn cancelar">Cancelar</button>
+	<button type="submit" class="btn btn-success"><%= user ? 'Actualizar' : 'Crear' %></button>
+	<% if(user) { %>
+		<input type="hidden" name="id" value="<%= user.get('id') %>"/>
+		<button  type="button" class="btn btn-danger delete">Eliminar</button>
+	<% }; %>
+</form>
