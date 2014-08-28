@@ -14,7 +14,7 @@ Es necesario tener lo siguiente para hacerlo funcionar:
 #### Manos a la obra
 1. Primero debes de copiar el repositorio de github
 
-          git clone https://github.com/mdrmtz/yeoman-template
+          git clone https://github.com/habax/UserManager-MVC-Backbone-RequireJS.git
 
 2. Ya que lo tengas en tu equipo ve a esa carpeta mediante tu terminal
 3. Instala las dependencias de bower
